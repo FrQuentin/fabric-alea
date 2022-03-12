@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "values": [
+        "alea:terracotta_shingles",
+        "alea:white_terracotta_shingles",
+        "alea:orange_terracotta_shingles",
+        "alea:magenta_terracotta_shingles",
+        "alea:light_blue_terracotta_shingles",
+        "alea:yellow_terracotta_shingles",
+        "alea:lime_terracotta_shingles",
+        "alea:pink_terracotta_shingles",
+        "alea:gray_terracotta_shingles",
+        "alea:light_gray_terracotta_shingles",
+        "alea:cyan_terracotta_shingles",
+        "alea:purple_terracotta_shingles",
+        "alea:blue_terracotta_shingles",
+        "alea:brown_terracotta_shingles",
+        "alea:green_terracotta_shingles",
+        "alea:red_terracotta_shingles",
+        "alea:black_terracotta_shingles"
+    ]
+}

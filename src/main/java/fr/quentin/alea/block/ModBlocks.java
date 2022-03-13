@@ -4,6 +4,7 @@ import fr.quentin.alea.Alea;
 import fr.quentin.alea.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.Material;
@@ -15,6 +16,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
+
+    // Terracotta Shingles
     public static final Block TERRACOTTA_SHINGLES = registerBlock("terracotta_shingles",
             new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(1.25F, 4.2F)
                     .sounds(BlockSoundGroup.DEEPSLATE_TILES)), ModItemGroup.BUILDING_BLOCKS);

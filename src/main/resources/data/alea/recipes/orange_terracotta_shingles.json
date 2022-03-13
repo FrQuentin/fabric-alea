@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:orange_terracotta"
+    }
+  },
+  "result": {
+    "item": "alea:orange_terracotta_shingles",
+    "count": 4
+  }
+}

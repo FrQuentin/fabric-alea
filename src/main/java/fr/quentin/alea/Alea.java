@@ -1,7 +1,7 @@
 package fr.quentin.alea;
 
 import fr.quentin.alea.block.ModBlocks;
-import fr.quentin.alea.util.ModTags;
+import fr.quentin.alea.util.ModFlammableBlockRegistry;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,7 +13,6 @@ public class Alea implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();
-		ModTags.setBlockTags();
-		ModTags.setItemTags();
+		ModFlammableBlockRegistry.setFlammableBlockRegistry();
 	}
 }

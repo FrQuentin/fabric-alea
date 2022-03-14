@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "alea:fungal_planks"
+    },
+    "@": {
+      "item": "minecraft:magenta_dye"
+    }
+  },
+  "result": {
+    "item": "alea:magenta_fungal_planks",
+    "count": 8
+  }
+}

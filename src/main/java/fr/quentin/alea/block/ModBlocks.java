@@ -124,6 +124,57 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(ModBlocks.FUNGAL_PLANKS)), ModItemGroup.BUILDING_BLOCKS);
 
 
+    // Concrete Bricks
+    public static final Block WHITE_CONCRETE_BRICKS = registerBlock("white_concrete_bricks",
+            new Block(FabricBlockSettings.copy(Blocks.BRICKS).sounds(BlockSoundGroup.DEEPSLATE_BRICKS)),
+            ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block ORANGE_CONCRETE_BRICKS = registerBlock("orange_concrete_bricks",
+            new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block MAGENTA_CONCRETE_BRICKS = registerBlock("magenta_concrete_bricks",
+            new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block LIGHT_BLUE_CONCRETE_BRICKS = registerBlock("light_blue_concrete_bricks",
+            new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block YELLOW_CONCRETE_BRICKS = registerBlock("yellow_concrete_bricks",
+            new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block LIME_CONCRETE_BRICKS = registerBlock("lime_concrete_bricks",
+            new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block PINK_CONCRETE_BRICKS = registerBlock("pink_concrete_bricks",
+            new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block GRAY_CONCRETE_BRICKS = registerBlock("gray_concrete_bricks",
+            new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block LIGHT_GRAY_CONCRETE_BRICKS = registerBlock("light_gray_concrete_bricks",
+            new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block CYAN_CONCRETE_BRICKS = registerBlock("cyan_concrete_bricks",
+            new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block PURPLE_CONCRETE_BRICKS = registerBlock("purple_concrete_bricks",
+            new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block BLUE_CONCRETE_BRICKS = registerBlock("blue_concrete_bricks",
+            new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block BROWN_CONCRETE_BRICKS = registerBlock("brown_concrete_bricks",
+            new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block GREEN_CONCRETE_BRICKS = registerBlock("green_concrete_bricks",
+            new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block RED_CONCRETE_BRICKS = registerBlock("red_concrete_bricks",
+            new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block BLACK_CONCRETE_BRICKS = registerBlock("black_concrete_bricks",
+            new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+
     // -----------------------------------------------------------------------------------------------------------------
 
     private static Block registerBlock(String name, Block block, ItemGroup itemGroup) {

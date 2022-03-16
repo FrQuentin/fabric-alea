@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "#alea:terracotta_shingles"
+        "#alea:terracotta_shingles",
+        "#alea:concrete_bricks"
     ]
 }

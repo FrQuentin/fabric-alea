@@ -2,6 +2,9 @@ package fr.quentin.alea.util;
 
 import fr.quentin.alea.block.ModBlocks;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
+import net.minecraft.block.Block;
+import net.minecraft.tag.Tag;
+import net.minecraft.tag.TagKey;
 
 public class ModFlammableBlockRegistry {
     public static void setFlammableBlockRegistry() {

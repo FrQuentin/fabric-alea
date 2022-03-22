@@ -6,7 +6,6 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -15,7 +14,6 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
-
 
     // Terracotta Shingles
     public static final Block TERRACOTTA_SHINGLES = registerBlock("terracotta_shingles",
@@ -173,6 +171,56 @@ public class ModBlocks {
 
     public static final Block BLACK_CONCRETE_BRICKS = registerBlock("black_concrete_bricks",
             new Block(FabricBlockSettings.copy(ModBlocks.WHITE_CONCRETE_BRICKS)), ModItemGroup.BUILDING_BLOCKS);
+
+
+    // Quilted Wool
+    public static final Block WHITE_QUILTED_WOOL = registerBlock("white_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block ORANGE_QUILTED_WOOL = registerBlock("orange_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block MAGENTA_QUILTED_WOOL = registerBlock("magenta_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block LIGHT_BLUE_QUILTED_WOOL = registerBlock("light_blue_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block YELLOW_QUILTED_WOOL = registerBlock("yellow_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block LIME_QUILTED_WOOL = registerBlock("lime_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block PINK_QUILTED_WOOL = registerBlock("pink_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block GRAY_QUILTED_WOOL = registerBlock("gray_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block LIGHT_GRAY_QUILTED_WOOL = registerBlock("light_gray_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block CYAN_QUILTED_WOOL = registerBlock("cyan_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block PURPLE_QUILTED_WOOL = registerBlock("purple_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block BLUE_QUILTED_WOOL = registerBlock("blue_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block BROWN_QUILTED_WOOL = registerBlock("brown_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block GREEN_QUILTED_WOOL = registerBlock("green_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block RED_QUILTED_WOOL = registerBlock("red_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
+
+    public static final Block BLACK_QUILTED_WOOL = registerBlock("black_quilted_wool",
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)), ModItemGroup.BUILDING_BLOCKS);
 
 
     // -----------------------------------------------------------------------------------------------------------------

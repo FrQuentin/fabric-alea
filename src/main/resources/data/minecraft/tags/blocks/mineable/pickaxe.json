@@ -1,7 +1,39 @@
 {
     "replace": false,
     "values": [
-        "#alea:terracotta_shingles",
-        "#alea:concrete_bricks"
+        "alea:terracotta_shingles",
+        "alea:white_terracotta_shingles",
+        "alea:orange_terracotta_shingles",
+        "alea:magenta_terracotta_shingles",
+        "alea:light_blue_terracotta_shingles",
+        "alea:yellow_terracotta_shingles",
+        "alea:lime_terracotta_shingles",
+        "alea:pink_terracotta_shingles",
+        "alea:gray_terracotta_shingles",
+        "alea:light_gray_terracotta_shingles",
+        "alea:cyan_terracotta_shingles",
+        "alea:purple_terracotta_shingles",
+        "alea:blue_terracotta_shingles",
+        "alea:brown_terracotta_shingles",
+        "alea:green_terracotta_shingles",
+        "alea:red_terracotta_shingles",
+        "alea:black_terracotta_shingles",
+
+        "alea:white_concrete_bricks",
+        "alea:orange_concrete_bricks",
+        "alea:magenta_concrete_bricks",
+        "alea:light_blue_concrete_bricks",
+        "alea:yellow_concrete_bricks",
+        "alea:lime_concrete_bricks",
+        "alea:pink_concrete_bricks",
+        "alea:gray_concrete_bricks",
+        "alea:light_gray_concrete_bricks",
+        "alea:cyan_concrete_bricks",
+        "alea:purple_concrete_bricks",
+        "alea:blue_concrete_bricks",
+        "alea:brown_concrete_bricks",
+        "alea:green_concrete_bricks",
+        "alea:red_concrete_bricks",
+        "alea:black_concrete_bricks"
     ]
 }

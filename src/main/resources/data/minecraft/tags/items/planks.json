@@ -1,6 +1,22 @@
 {
-  "replace": false,
-  "values": [
-    "#alea:fungal_planks"
-  ]
+    "replace": false,
+    "values": [
+        "alea:fungal_planks",
+        "alea:white_fungal_planks",
+        "alea:orange_fungal_planks",
+        "alea:magenta_fungal_planks",
+        "alea:light_blue_fungal_planks",
+        "alea:yellow_fungal_planks",
+        "alea:lime_fungal_planks",
+        "alea:pink_fungal_planks",
+        "alea:gray_fungal_planks",
+        "alea:light_gray_fungal_planks",
+        "alea:cyan_fungal_planks",
+        "alea:purple_fungal_planks",
+        "alea:blue_fungal_planks",
+        "alea:brown_fungal_planks",
+        "alea:green_fungal_planks",
+        "alea:red_fungal_planks",
+        "alea:black_fungal_planks"
+    ]
 }

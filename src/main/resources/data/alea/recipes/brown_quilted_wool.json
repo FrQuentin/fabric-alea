@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_wool"
+    }
+  },
+  "result": {
+    "item": "alea:brown_quilted_wool",
+    "count": 4
+  }
+}

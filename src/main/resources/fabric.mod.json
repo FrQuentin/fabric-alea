@@ -4,16 +4,17 @@
   "version": "${version}",
 
   "name": "Alea",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Alea is a Minecraft mod that adds several dozen new building blocks and decorations.",
   "authors": [
-    "Me!"
+    "Quentin!"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/FrQuentin/fabric-alea"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
+  "icon": "assets/alea/icon.png",
 
   "environment": "*",
   "entrypoints": {
